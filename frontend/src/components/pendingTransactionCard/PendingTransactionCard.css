@@ -1,0 +1,29 @@
+.pending-transaction-card {
+    /* display: flex;
+    flex-direction: row; */
+    /* min-width: 150px;
+    min-height: 20px; */
+    width: 100%;
+    aspect-ratio: 3 / 1;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1.5px solid lightgray;
+    border-radius: 10px;
+    align-items:flex-end;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow-light);
+    overflow-y: scroll;
+    word-break: break-all;
+}
+
+.pending-transaction {
+    text-align: left;
+}
+
+.pending-transaction-difficulty-mine {
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}

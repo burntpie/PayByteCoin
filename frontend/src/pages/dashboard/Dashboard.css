@@ -1,0 +1,135 @@
+/* _____________ Overall Styling _____________ */
+:root {
+  --color-positive: #B0DB43;
+  --color-neutral: #80CED7;
+  --color-negative: #FC2F00;
+
+  --color-primary: #4b57bd;
+  --color-danger: #ff7782;
+  --color-success: #30a88a;
+  --color-warning: #ffbb55;
+  --color-background: #f6f6f9;
+  --color-dark: #363949;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-info-dark: #7d8da1;
+  --color-dark-variant: #677483;
+  
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+
+  --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  --box-shadow-light: rgba(186, 190, 194, 0.3) 0px 1px 2px 0px, rgba(217, 221, 224, 0.15) 0px 2px 6px 2px;
+}
+
+a {
+  color: var(--color-dark)
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 0px 50px;
+  color: var(--color-dark);
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4rem;
+  /* padding: 0px 50px; */
+  color: var(--color-dark);
+  text-align: center;
+}
+
+h3 {
+  font-size: 0.90rem;
+  font-weight: 100;
+  color: var(--color-primary)
+}
+
+h4 {
+  font-size: 0.85rem;
+  font-weight: 100;
+  color: var(--color-success);
+}
+
+h5 {
+  font-size: 0.77rem;
+}
+
+.text-muted {
+  color: var(--color-info-dark)
+}
+
+p {
+  font-size: 0.85rem;
+  color: var(--color-dark-variant);
+}
+
+b {
+  color: var(--color-dark)
+}
+
+.primary {
+  color:var(--color-primary)
+}
+
+.success {
+  color:var(--color-success)
+}
+
+.danger {
+  color:var(--color-danger)
+}
+
+.warning {
+  color:var(--color-warning)
+}
+
+
+/* _____________ Custom Styling _____________ */
+
+.dashboard {
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-family: 'Roboto';
+    background: var(--color-background);
+  }
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+  }
+  .dashboard__btn {
+    justify-content: center;
+    float: right;
+  }
+  .dashboard div {
+    margin-top: 7px;
+  }
+
+.table {
+  display:flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 10px 30px;
+  margin: 0px 30px;
+}
+
+.header {
+  /* text-align: center; */
+  display:flex;
+  justify-content: center;
+  padding: 10px 30px;
+  margin: 0px 30px;
+}
